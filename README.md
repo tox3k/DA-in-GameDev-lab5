@@ -91,17 +91,17 @@
     ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step10.png)    
     ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step11.png)
     Вывод:
-      -fdsfds
-    
-- learning_rate: параметр отвечает за скорость обучения. По умолчанию 0.0003.
-    0.03:      
+      -fdsfds  
+      
+- learning_rate: параметр отвечает за скорость обучения. По умолчанию 0.0003.  
+    0.03:        
     ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step15.png)    
     ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step16.png)
-    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step17.png)  
-    0.0003:
+    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step17.png)   
+    0.0003:  
     ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/start.png)    
     ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/start1.png)
-    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/start2.png)
+    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/start2.png)  
     Вывод:
       - fdsfsdf  
         
