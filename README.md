@@ -59,11 +59,23 @@
     - Ошибка обучения планомерно уменьшается и стремится к нулю
     - Дополнительные вознаграждения(Extrinsic Rewards) и накопительные награды (Cumulative Rewards) очень неоднозначно и имеют резкое падания вознаграждения, но обратно возрастают. Оценка внешней ценности (Extrinsic value estimate) стабильны, но на низком уровне в сравнение со стартовыми настройками, где ценность повышается со временем. Энтропия(Entropy) стабильно растет.  
   
-- trainer_type: Это своего рода тип тренера который используетс для обучения. По умолчанию установлен тип PPO (Обучение с подкреплением).   
-  Установит тип SAC и сделаем выводы:    
+- time_horizon: Сколько шагов опыта нужно собрать для каждого агента, прежде чем добавлять его в буфер опыта. Когда этот предел достигается до окончания эпизода, оценка значения используется для прогнозирования общего ожидаемого вознаграждения на основе текущего состояния агента. По умолчанию 64.
+  32:    
   ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step6.png)    
   ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step7.png)    
   ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step8.png)
+  Вывод:
+    -fdsfds
+  64:    
+  ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step9.png)    
+  ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step10.png)    
+  ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step11.png)
+  Вывод:
+    -fdsfds
+  128:    
+  ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step12.png)    
+  ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step13.png)    
+  ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step14.png)
   Вывод:
     -fdsfds
     
