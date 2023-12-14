@@ -49,13 +49,13 @@
 ## Задание 2  
 ### Изменить параметры файла yaml-агента и определить какие параметры и как влияют на обучение модели. Привести описание не менее трех параметров.  
 - network_settings:  
-  - normalize: Этот параметр отвечает нормализацию входных данных, то есть если нужна их нормализации, устанавливаем значение true, если нет - false. По умолчанию у нас стоит false.  
-  normalize = true    
-  ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step3.png)
-  ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step4.png)
-![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step5.png)
-  Вывод:
-    - Скачет ошибка обучения, которая в процессе,конечно, уменьшается. Дополнительные вознаграждения(Extrinsic Rewards) сначала растут, достигают максимума и уменьшаются. Оценка внешней ценности (Extrinsic value estimate) стабильны, но на низком уровне в сравнение со стартовыми настройками, где ценность повышается со временем. Энтропия(Entropy) стабильно растет.
+  - normalize: Этот параметр отвечает нормализацию входных данных, то есть если нужна их нормализации, устанавливаем значение true, если нет - false. По умолчанию у нас стоит false.    
+  normalize = true      
+  ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step3.png)  
+  ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step4.png)  
+![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step5.png)  
+  Вывод:  
+    - Скачет ошибка обучения, которая в процессе,конечно, уменьшается. Дополнительные вознаграждения(Extrinsic Rewards) сначала растут, достигают максимума и уменьшаются. Оценка внешней ценности (Extrinsic value estimate) стабильны, но на низком уровне в сравнение со стартовыми настройками, где ценность повышается со временем. Энтропия(Entropy) стабильно растет.  
     
   
 ## Задание 3
