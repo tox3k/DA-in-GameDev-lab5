@@ -40,7 +40,7 @@
 
 ## Задание 1
 ### Найдите внутри C# скрипта “коэффициент корреляции ” и сделать выводы о том, как он влияет на обучение модели.  
-Проанализировав C# скрипт, я нашел коэффицент корреляции - переменная distanceToTarget 
+Проанализировав C# скрипт, я нашел коэффицент корреляции - переменная distanceToTarget   
 ![Image alt](https://github.com/prepref/UrFU-GameAnalysis/raw/main/github-screenshots/workshop5/step1.png)    
 Изменим коэффицент корреляции и сделаем вывод:     
 ![Image alt](https://github.com/prepref/UrFU-GameAnalysis/raw/main/github-screenshots/workshop5/step2.png)   
