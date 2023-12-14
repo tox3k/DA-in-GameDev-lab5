@@ -63,19 +63,17 @@
   32:    
   ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step6.png)    
   ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step7.png)    
-  ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step8.png)
-  Вывод:
-    -fdsfds
-  64:    
+  ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step8.png)  
+  
+  64:      
   ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/start.png)    
   ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/start1.png)    
   ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/start2.png)
-  Вывод:
-    -fdsfds
-  128:    
+  
+  128:      
   ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step9.png)    
   ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step10.png)    
-  ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step11.png)
+  ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step11.png)  
   Вывод:
     -fdsfds
 
