@@ -41,15 +41,15 @@
 ## Задание 1
 ### Найдите внутри C# скрипта “коэффициент корреляции ” и сделать выводы о том, как он влияет на обучение модели.  
 Проанализировав C# скрипт, я нашел коэффицент корреляции - переменная distanceToTarget   
-![Image alt](https://github.com/prepref/UrFU-GameAnalysis/raw/main/github-screenshots/workshop5/step1.png)    
+![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/tree/main/scrinshots/step1.png)    
 Изменим коэффицент корреляции и сделаем вывод:     
-![Image alt](https://github.com/prepref/UrFU-GameAnalysis/raw/main/github-screenshots/workshop5/step2.png)   
+![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/tree/main/scrinshots/step2.png)   
 Вывод: Так как при коэффиценте корреляции равным 1.42 мы имеем максимальное вознаграждение и стандартное отклонение равное 0, то при его изменения, мы видим что вознаграждение стало асбсолютно разным и появилось стандартное отклонение. Следовательно коэффицент корреляции отвечает за точность обучения, то есть чем точней мы его подберем, тем выше точность обучения. Также он влияет на скорость обучения, и в нашем случае мы изменили его в большую стороны, и увеличилось время обучения агента.  
 
 ## Задание 2  
 ### Изменить параметры файла yaml-агента и определить какие параметры и как влияют на обучение модели. Привести описание не менее трех параметров.  
 Стартовые настройки:  
-![Image alt](https://github.com/prepref/UrFU-GameAnalysis/raw/main/github-screenshots/workshop5/2-step30.png)
+![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/tree/main/scrinshots/2-step30.png)
 ![Image alt](https://github.com/prepref/UrFU-GameAnalysis/raw/main/github-screenshots/workshop5/2-step31.png)
 ![Image alt](https://github.com/prepref/UrFU-GameAnalysis/raw/main/github-screenshots/workshop5/2-step32.png)
 - network_settings:  
