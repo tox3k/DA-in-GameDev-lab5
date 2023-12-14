@@ -90,7 +90,19 @@
     ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step11.png)
     Вывод:
       -fdsfds
-  
+    
+- learning_rate: параметр отвечает за скорость обучения. По умолчанию 0.0003.
+    1.5:      
+    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step9.png)    
+    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step10.png)
+    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step11.png)  
+    0.0003:
+    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step9.png)    
+    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step10.png)
+    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step11.png)
+    Вывод:
+      - fdsfsdf  
+        
 ## Задание 3
 ### Приведите примеры, для каких игровых задачи и ситуаций могут использоваться примеры 1 и 2 с ML-Agent’ом. В каких случаях проще использовать ML-агент, а не писать программную реализацию решения?  
 -  Пример из первой практической работы можно использовать для nps-врагов, которые определяют где находится игрок и двигаются по направлению к нему. Пример: любая гонка, где враги стараются догнать тебя(любая часть Need For Speed)
