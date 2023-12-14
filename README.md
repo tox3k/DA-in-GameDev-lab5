@@ -59,7 +59,7 @@
     - Ошибка обучения планомерно уменьшается и стремится к нулю
     - Дополнительные вознаграждения(Extrinsic Rewards) и накопительные награды (Cumulative Rewards) очень неоднозначно и имеют резкое падания вознаграждения, но обратно возрастают. Оценка внешней ценности (Extrinsic value estimate) стабильны, но на низком уровне в сравнение со стартовыми настройками, где ценность повышается со временем. Энтропия(Entropy) стабильно растет.  
   
-- time_horizon: Сколько шагов опыта нужно собрать для каждого агента, прежде чем добавлять его в буфер опыта. Когда этот предел достигается до окончания эпизода, оценка значения используется для прогнозирования общего ожидаемого вознаграждения на основе текущего состояния агента. По умолчанию 64.
+- time_horizon: Количество шагов опыта,которое должно быть собрано для каждого агента, прежде чем его можно будет добавить в буфер опыта.Если этот предел достигнут до окончания эпизода, оценка стоимости используется для прогнозирования общего ожидаемого вознаграждения на основе текущего состояния агента. Также если эпизоды обучения достаточно большие, то следует брать меньшее число. По умолчанию 64.
   32:    
   ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step6.png)    
   ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step7.png)    
@@ -78,6 +78,29 @@
   ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step14.png)
   Вывод:
     -fdsfds
+
+- hyperparameters:
+    - buffer_size: Объем данных, который необходимо собрать перед обновлением модели политики. Это соответствует тому, какой объем опыта вам необходимо собрать, прежде чем вы начнете изучать или обновлять свою модель. По умолчанию 10240.
+    4240:    
+    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step9.png)    
+    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step10.png)    
+    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step11.png)
+    Вывод:
+      -fdsfds
+  
+    10240:    
+    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step9.png)    
+    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step10.png)    
+    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step11.png)
+    Вывод:
+      -fdsfds
+
+    20240:    
+    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step9.png)    
+    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step10.png)    
+    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step11.png)
+    Вывод:
+      -fdsfds
     
   
 ## Задание 3
