@@ -79,27 +79,17 @@
 
 - hyperparameters:
     - buffer_size: Объем данных, который необходимо собрать перед обновлением модели политики. Это соответствует тому, какой объем опыта вам необходимо собрать, прежде чем вы начнете изучать или обновлять свою модель. По умолчанию 10240.
-    4240:    
-    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step9.png)    
-    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step10.png)    
-    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step11.png)
-    Вывод:
-      -fdsfds
-  
-    10240:    
-    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step9.png)    
-    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step10.png)    
-    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step11.png)
-    Вывод:
-      -fdsfds
-
-    20240:    
-    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step9.png)    
-    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step10.png)    
-    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step11.png)
-    Вывод:
-      -fdsfds
+    5240:    
+    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step12.png)    
+    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step13.png)    
+    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step14.png)  
     
+    10240:      
+    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step9.png)    
+    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step10.png)    
+    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step11.png)
+    Вывод:
+      -fdsfds
   
 ## Задание 3
 ### Приведите примеры, для каких игровых задачи и ситуаций могут использоваться примеры 1 и 2 с ML-Agent’ом. В каких случаях проще использовать ML-агент, а не писать программную реализацию решения?  
