@@ -77,7 +77,7 @@
   ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step10.png)    
   ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step11.png)  
   Вывод:
-    - Можно отметить, что при большом значении time_horizon ml-агент может выполнять лишние действия, что плохо скажется на результате. Но при слишком маленьком значение ему может не хватит шагов для обучения, вследсвие чего могут возникнуть ошики. Такой вывод мы можем сделать из этих графиков
+    - Можно отметить, что при большом значении time_horizon ml-агент может выполнять лишние действия, что плохо скажется на результате. Но при слишком маленьком значение ему может не хватит шагов для обучения, вследсвие чего могут возникнуть ошики. Такой вывод мы можем сделать из этих графиков.
 
 - hyperparameters:
     - buffer_size: Объем данных, который необходимо собрать перед обновлением модели политики. Это соответствует тому, какой объем опыта вам необходимо собрать, прежде чем вы начнете изучать или обновлять свою модель. По умолчанию 10240.
@@ -87,11 +87,11 @@
     ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step14.png)  
     
     10240:      
-    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step9.png)    
-    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step10.png)    
-    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step11.png)
+    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/start.png)    
+    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/start1.png)    
+    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/start2.png)
     Вывод:
-      -fdsfds  
+      - При маленьком значение объема данных сущестенно увеличивается время обучения, также может пострадать точность обучения. Но в остальном результат +- похож. То есть стоит ответственно подходить к выбору объема данных, что сократить максимально время обучения агента и повысить точность обучения.
       
 - learning_rate: параметр отвечает за скорость обучения. По умолчанию 0.0003.  
     0.03:        
