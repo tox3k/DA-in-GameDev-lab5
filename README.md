@@ -53,11 +53,19 @@
   true:        
   ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step3.png)  
   ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step4.png)  
-![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step5.png)  
+  ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step5.png)  
   Вывод:  
     - Во первых увеличось время обучения, так как пришлось нормализовывать данные
     - Ошибка обучения планомерно уменьшается и стремится к нулю
     - Дополнительные вознаграждения(Extrinsic Rewards) и накопительные награды (Cumulative Rewards) очень неоднозначно и имеют резкое падания вознаграждения, но обратно возрастают. Оценка внешней ценности (Extrinsic value estimate) стабильны, но на низком уровне в сравнение со стартовыми настройками, где ценность повышается со временем. Энтропия(Entropy) стабильно растет.  
+  
+- trainer_type: Это своего рода тип тренера который используетс для обучения. По умолчанию установлен тип PPO (Обучение с подкреплением).   
+  Установит тип SAC и сделаем выводы:    
+  ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step6.png)    
+  ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step7.png)    
+  ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step8.png)
+  Вывод:
+    -fdsfds
     
   
 ## Задание 3
