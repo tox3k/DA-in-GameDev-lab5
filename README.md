@@ -40,7 +40,7 @@
 
 ## Задание 1
 ### Найдите внутри C# скрипта “коэффициент корреляции ” и сделать выводы о том, как он влияет на обучение модели.  
-Проанализировав C# скрипт, я нашел коэффицент корреляции - переменная distanceToTarget   
+Проанализировав C# скрипт, я нашел коэффицент корреляции - 1.42   
 ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step1.png)    
 Изменим коэффицент корреляции и сделаем вывод:     
 ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab5/blob/main/scrinshots/step2.png)   
